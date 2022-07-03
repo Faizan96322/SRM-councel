@@ -48,6 +48,7 @@ nav{
 }
 .top_sec{
     background-image: linear-gradient(#ffefb3, #fffdf6);
+   
 }
 .option{
     position: absolute;
@@ -85,3 +86,54 @@ nav{
     background-position: left bottom;
     color: white;
 }
+
+/* style for shield */
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+/* style for boxes */
+.box,.box1, .box2 {
+    display: inline-block;
+  }
+.contact {
+    text-align: center;
+  }
+
+
+.box{
+    margin: 0 auto;
+    margin: 2em;
+    
+    width: 80px;
+    height: 80px;
+    background: skyblue;
+}
+.box1{
+    margin: 0 auto;
+    margin: 2em;
+
+    width: 80px;
+    height: 80px;
+    background: red;
+
+}
+.box2{
+    margin: 0 auto;
+    margin: 2em;
+
+    width: 80px;
+    height: 80px;
+    background: orange
+
+ }
+ .box,.box1, .box2 {
+   display: inline-block;
+ }
+ .contact {
+   text-align: center;
+ }
