@@ -1,119 +1,4 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: "poppins", sans-serif;
-    box-sizing: border-box;
-}
-.header{
-    height: 15vh;
-    width: 100%;
-    padding: 1 8%;
-    position: relative;
-}
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-right: 50px;
-}
-.logo{
-    width: 130px;
-    margin-left: 20px;
-}
-.nav_links{
-    padding: 18px 0;
-}
-.nav_links li{
-    display: inline-block;
-    margin: 0 15px;
-}
-.nav_links li a{
-    text-decoration: none;
-    color: black;
-    padding: 5px 1;
-    position: relative;
-}
-.nav_links li a:after{
-    content: '';
-    background: #0655e6;
-    width: 0%;
-    height: 3px;
-    position: absolute;
-    bottom: -3px;
-    left: 0;
-    transition: width 0.5s;
-}
-.nav_links li a:hover::after{
-    width: 100%;
-}
-.top_sec{
-    background-image: linear-gradient(#ffefb3, #fffdf6);
-   
-}
-.option{
-    position: absolute;
-    padding-top: 130px;
-    padding-left: 250px;
-}
-.option h1{
-    font-size: 50px;
-    font-weight: normal;
-    margin-bottom: -0px;
-}
-.first_p{
-    font-size: 25px;
-    margin-bottom: -20px;
-}
-.second_p{
-    font-size: 25px;
-    margin-bottom: 50px;
-}
-.option a{
-    text-decoration: none;
-    color: #0655e6;
-    font-size: 20px;
-    border-style: solid;
-    padding: 15px;
-    margin-left: 250px;
-    border-radius: 30px;
-    border-color: #0655e6;
-    background: linear-gradient(to right, #0655e6 50%, #fef8e0 50%);
-  background-size: 200% 100%;
-  background-position: right bottom;
-  transition: all .5s ease-out;
-}
-.option a:hover{
-    background-position: left bottom;
-    color: white;
-}
-
-/* style for shield */
-.row {
-    display: flex;
-  }
-  
-.column {
-    flex: 33.33%;
-    padding: 5px;
-  }
-
-  .box {
-    float: left;
-    width: 30%;
-    padding: 5px;
-    display: flex;
-    justify-content: center
-  }
-  
-  .contact{
-    margin-bottom: 300px;
-  }
-  .contact::after {
-    content: "";
-    clear: both;
-    ;
-  }
-  @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
 
 * {
   font-family: Open Sans;
@@ -123,6 +8,7 @@ section {
   width: 100%;
   display: inline-block;
   background-image: linear-gradient(#fffdf6, #ffefb3);	
+  height: 50vh;
   text-align: center;
   font-size: 22px;
   font-weight: 700;
@@ -135,7 +21,7 @@ section {
 	width: 100%;
 	text-align: left;
 	font: bold 16px sans-serif;
-
+	padding: 55px 50px;
 }
 
 .footer-distributed .footer-left,
@@ -147,7 +33,6 @@ section {
 
 .footer-distributed .footer-left{
 	width: 40%;
-    margin-top: 50px;
 }
 
 
